@@ -19,7 +19,7 @@ const displayTemples = (temples) => {
     templesElement.appendChild(article);
   });
 };
-
+//'https://byui-cse.github.io/cse121b-ww-course/resources/temples.json'
 const getTemples = async () => {
   try {
     const response = await fetch('https://byui-cse.github.io/cse121b-ww-course/resources/temples.json');
